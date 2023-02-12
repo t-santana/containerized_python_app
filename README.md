@@ -5,7 +5,7 @@
 This zip contains two directories both of which accomplish the same outcome although in albeit different steps in the Dockerfile. 
 
 - The Dockerfile in **directory 1** will be using the Python:3.9 image from the Official Python account
-- The Dockerfile in **directory 2** will be using a custom image written from me. 
+- The Dockerfile in **directory 2** will be using a custom image stored in docker hub written from me as requested on the task. 
 
 ### Requirements
 
