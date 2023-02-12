@@ -5,10 +5,10 @@ ENV LANG C.UTF-8
 RUN set -eux; \
 	apt-get update; \
 	apt-get install -y --no-install-recommends \
-    ca-certificates \
+    	ca-certificates \
 		netbase \
 		tzdata \
-        ; \
+        	; \
         rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update && apt-get install python=3.9 python=3.9-dev -y --no-install-recommends ;\
