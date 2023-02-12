@@ -1,4 +1,4 @@
-FROM tsantana_containerized_python_app:1.0
+FROM paul2995/containerized_python_app:1.0
 
 WORKDIR /usr/src/app
 
